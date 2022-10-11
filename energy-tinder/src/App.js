@@ -13,13 +13,13 @@ import Statistics from "./components/Statistic";
 
 function App() {
   return (
-      <>
+      <div className="css-selector" >
           <Sidebar />
           <Routes>
               <Route path="/" element={<Main />}/>
               <Route path="/statistics" element={<Statistics />}/>
           </Routes>
-      </>
+      </div>
 
 
   );
