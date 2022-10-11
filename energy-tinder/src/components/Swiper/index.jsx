@@ -1,9 +1,7 @@
-import './index.css';
+import "./index.css";
 
 const Swiper = () => {
-    return (
-        <h1>Swiper</h1>
-    )
-}
+  return <h1>Swiper</h1>;
+};
 
 export default Swiper;
