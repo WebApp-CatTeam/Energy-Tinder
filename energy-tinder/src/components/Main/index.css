@@ -1,0 +1,77 @@
+:root {
+    --alpha-percent: 0.1;
+    --red-color: #ef7b7b;
+    --red-color-hover: #c76969;
+    --yellow-color: #d3d36b;
+    --yellow-color-hover: #b2b25c;
+    --green-color: #68d768;
+    --green-color-hover: #5db65d;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-center {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.button-container {
+    display: flex;
+    gap: 3vh;
+}
+
+
+.button > p {
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    font-size: 30px;
+    padding: 10px 25px;
+    background: 0;
+    transform: scale(0.96);
+    backdrop-filter: blur(2px);
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition-duration: 0.2s;
+}
+
+.dislike-button {
+    color: var(--red-color);
+    border: 2px solid var(--red-color);
+    background-color: rgba(199, 105, 105, var(--alpha-percent));
+}
+.dislike-button:hover {
+    color: var(--red-color-hover);
+    border: 2px solid var(--red-color-hover);
+    transform: scale(1);
+}
+
+.like-button {
+    color: var(--green-color);
+    border: 2px solid var(--green-color);
+    background-color: rgba(239, 123, 123, var(--alpha-percent));
+}
+.like-button:hover {
+    color: var(--green-color-hover);
+    border: 2px solid var(--green-color-hover);
+    transform: scale(1);
+}
+
+.idk-button {
+    color: var(--yellow-color);
+    border: 2px solid var(--yellow-color);
+    background-color: rgba(211, 211, 107, var(--alpha-percent));
+}
+.idk-button:hover {
+    color: var(--yellow-color-hover);
+    border: 2px solid var(--yellow-color-hover);
+    transform: scale(1);
+}
+
+

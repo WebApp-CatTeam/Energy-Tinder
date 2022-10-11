@@ -2,7 +2,11 @@ import './index.css';
 
 const Swiper = () => {
     return (
-        <h1>Swiper</h1>
+        <div className="swiper">
+            <div className="questionnaire-element">
+
+            </div>
+        </div>
     )
 }
 

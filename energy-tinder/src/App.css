@@ -1,3 +1,7 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .css-selector {
   background: linear-gradient(333deg, #3494E6, #EC6EAD);
@@ -8,6 +12,9 @@
   animation: AnimationName 30s ease infinite;
 
   min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
 }
 
 @-webkit-keyframes AnimationName {

@@ -1,0 +1,9 @@
+:root {
+    --swiper-bg-color: rgba(233, 233, 255, 0.49);
+}
+.swiper {
+    display: flex;
+    background-color: var(--swiper-bg-color);
+    height: 60vh;
+    border-radius: 25px;
+}
